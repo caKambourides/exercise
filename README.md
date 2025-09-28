@@ -1,7 +1,7 @@
 # Installation Instructions ###
 ## MySQL database:
 - ensure mysql is running and that the `exercise` database exists
-- import `db.sql` with `mysql -u {username} -p exercise < backup.sql`
+- import `db.sql` with `mysql -u {username} -p exercise < db.sql`
 - export password to env variable DB_PASSWORD `export DB_PASSWORD="secret"`
 
 ## Java App:
