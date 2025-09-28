@@ -2,7 +2,7 @@
 ## MySQL database:
 - ensure mysql is running and that the `exercise` database exists
 - import `db.sql` with `mysql -u {username} -p exercise < db.sql`
-- export password to env variable DB_PASSWORD `export DB_PASSWORD="secret"`
+- export password to env variable DB_PASSWORD `export DB_PASSWORD="secret"` or manually set in `application.properties`
 
 ## Java App:
 - navigate to directory `spring-boot`
